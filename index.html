@@ -1,0 +1,35 @@
+<!--Construisez une page html avec un bouton et un champ texte. Le but est de trouver un nombre entre 0 et 100. A chaque réponse la page répond :
+    plus
+    moins
+    correcte
+Quand la réponse est trouvée, on obtiens le nombre d'essai que l'on a fait.-->
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/Ex3jQ.css">
+		<title>jQ Part 3 Exercice 3</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<h1>jQuerry</h1>
+			<h2>Partie 3 - Exercice 3</h2>
+			<div id="divTry" class="col-xs-12 offset-md-3 col-md-6">
+				<form class="Center">
+					<input type="text" id="inputValue" name="inputValue" placeholder="Entrer un nombre entre 0 et 100">
+				</form>
+				<p id="Message" class="Center">Entrez un nombre entre 0 et 100</p>
+				<p id="NbTry" class="Center"></p>
+				<div class="row">
+					<div class="col-12 text-center">
+						<button id="validButton" class="Button">Valider</button>
+					</div>
+				</div>
+				<p>Entrée réinitialise le nombre ='(</p>
+			</div>
+		</div>
+		<script src="assets/js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="assets/js/Ex3jQ.js"></script>
+	</body>
+</html>

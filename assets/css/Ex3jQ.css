@@ -1,0 +1,44 @@
+body {
+	background-color: #333;
+}
+h1, h2 {
+	color: #080;
+	text-align: center;
+}
+.Button{
+	background-color: #222;
+	color: #080;
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-top: 5px;
+	border: solid 2px #484;
+	border-radius: 5px;
+	min-width: 100px;
+	margin-bottom: 10px;
+}
+.Button:hover{
+	background-color: #080;
+	color: #222 !important;
+}
+.Center {
+	text-align: center;
+	margin-top: 10px;
+}
+#divTry {
+	border: 10px double #FF0;
+	border-radius: 20px;
+	background-color: #3A3A3A;
+}
+p {
+	color: #0A0;
+	font-family: 'times new roman';
+	font-size: 1.5em;
+}
+input {
+	min-width: 250px;
+	text-align: center;
+}
+
+.Test {
+	border: 3px solid #FF0;
+}
